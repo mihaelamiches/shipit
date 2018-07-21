@@ -1,6 +1,6 @@
 # not-wiki-search api
 
-## run locally
+## run dev server locally
 
 ```bash
 cd back-end
