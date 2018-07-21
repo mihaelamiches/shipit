@@ -1,4 +1,4 @@
-# not-wiki-search api
+# starter api
 
 ## run dev server locally
 
@@ -18,6 +18,15 @@ npn run dev
 cd back-end
 heroku login
 ```
+
+### add Heroku remote
+
+```bash
+heroku git:remote -a [FRONTEND-APP-NAME]
+```
+
+_replace `[FRONTEND-APP-NAME]` with your front-end app name_
+> (eg: `$ heroku git:remote -a pacific-temple-58446`)
 
 ### ship it
 
