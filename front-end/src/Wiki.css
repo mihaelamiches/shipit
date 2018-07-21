@@ -1,0 +1,33 @@
+.wiki-item {
+    padding-bottom: 1.2em;
+    list-style: none;
+    list-style-image: none;
+}
+
+.wiki-results {
+    padding: 6em;
+}
+
+.wiki-search-item {
+    padding-bottom: 1.2em;
+    font-weight: bold;
+}
+
+.wiki-searching {
+    padding: 4em;
+    font-weight: bold;
+}
+
+.wiki-search {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: #d1d5da;
+    border: 0;
+    box-shadow: none;
+    font-size: large;
+    height: 3em;
+}
+  

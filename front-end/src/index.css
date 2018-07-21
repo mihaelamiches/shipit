@@ -1,0 +1,22 @@
+.header {
+    background-color: #222;
+    height: 150px;
+    color: white;
+}
+
+.nav {
+    background-color: #222;
+    padding-left: 24px;
+    padding-top: 12px;
+    color: white;
+}
+
+.header-title {
+   padding-top: 30px;
+   text-align: center;
+}
+
+.index-items {
+   padding: 3em;
+   font-size: large;
+}
