@@ -9,7 +9,6 @@ npn run dev
 
 the server will be available at `http://localhost:3001`
 
-
 ## deploy backend on heroku
 
 - Sign up for a Heroku account [here](https://signup.heroku.com/) if you don't already have an account.
@@ -24,10 +23,14 @@ heroku login
 
 ### add Heroku remote
 
-add a remote to your local repository
+setup the local repository
 
-_replace `[BACKEND-APP-NAME]` below with your front-end app name_
-> (eg: `$ heroku git:remote -a pacific-temple-58446`)
+```bash
+git init
+```
+
+_replace `[BACKEND-APP-NAME]` below with your backend-end app name_
+> (eg: `$ heroku git:remote -a pacific-temple-api`)
 
 ```bash
 heroku git:remote -a [BACKEND-APP-NAME]
