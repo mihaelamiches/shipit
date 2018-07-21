@@ -12,6 +12,10 @@ const allow_origin = process.env.ALLOW_ORIGIN;
 app.set("port", port);
 app.use(cors({ origin: allow_origin }));
 
+app.get('/', (req, res) => {
+    res.send("😘");
+});
+
 app.get('/wiki', (req, res) => {
     console.log("🔎: ", req.query.search);
     res.setHeader('Content-Type', 'application/json');
@@ -20,9 +24,9 @@ app.get('/wiki', (req, res) => {
       if (err) { res.send(err); return console.log(err); }
       res.send(r.body);
     });   
-})
+});
 
 app.listen(port, () => {
-    console.log('👀 :' + port);
-    console.log('✅ :' + allow_origin);
+    console.log('server running on port: ' + port);
+    console.log('allow connections from: ' + allow_origin);
 });
