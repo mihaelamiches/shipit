@@ -1,40 +1,53 @@
-# not wikipedia search
+# ReactJS starter
 
-built with ReactJS
-
-## 1. clone this repo
-
-## 2. run locally
+## run locally
 
 ```bash
 cd front-end
 npm start
 ```
 
-## 3. deploy on heroku
+## deploy on Heroku
+
+### [Prerequisites](https://github.com/mihaelamiches/shipit/blob/master/README.md)
 
 - Sign up for a Heroku account [here](https://signup.heroku.com/)
-- Create a [new app](https://dashboard.heroku.com/new-app). The frontend will be available at `https://[YOUR-FRONTEND].herokuapp.com/`
+- Create a [new app](https://dashboard.heroku.com/new-app). The frontend will be available at `https://[FRONTEND-APP-NAME].herokuapp.com/`
 
-### 3.1 heroku login
+### 1. login
 
 ```bash
 cd front-end
 heroku login
 ```
 
-### 3.2 setup environment
+### 2. Heroku repository
 
-Set the API location to your [deployed backend](../README)
-
-_replace `[YOUR-BACKEND-APP]` below with your back-end app name_
-> (eg: `heroku config:set ALLOW_ORIGIN=https://pacific-temple-api-58446.herokuapp.com`)
+setup the local repository
 
 ```bash
-heroku config:set REACT_APP_API_LOCATION=https://[YOUR-BACKEND-APP].herokuapp.com/
+git init
 ```
 
-### 3.3 ship it
+_replace `[FRONTEND-APP-NAME]` below with your frontend-end app name_
+> (eg: `$ heroku git:remote -a pacific-temple`)
+
+```bash
+heroku git:remote -a [FRONTEND-APP-NAME]
+```
+
+### 2. environment variables
+
+Set the API location to your [deployed backend](https://github.com/mihaelamiches/shipit/blob/master/back-end/README.md)
+
+_replace `[BACKEND-APP-NAME]` below with your back-end app name_
+> (eg: `heroku config:set ALLOW_ORIGIN=https://pacific-temple-api.herokuapp.com`)
+
+```bash
+heroku config:set REACT_APP_API_LOCATION=https://[BACKEND-APP-NAME].herokuapp.com/
+```
+
+### 3. ship it
 
 ```bash
 git add .
@@ -42,11 +55,10 @@ git commit -m "make it fly"
 git push heroku master
 ```
 
-### 3.4 make it so
+### 4. make it so
 
 > add your magic. repeat.
 
+### 5. take a break eat, sleep, take care of yourself ❤️
 
-### 3.5 eat, sleep, take care of yourself ❤️
-
-> Repeat 3.3, 3.4, 3.5
+> Repeat steps 3-5 
