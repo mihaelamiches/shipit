@@ -59,8 +59,8 @@ heroku config:set ALLOW_ORIGIN=https://[FRONTEND-APP-NAME].herokuapp.com
 
 ### 4. make it so
 
-> add your magic. repeat.
+> add your magic
 
 ### 5. relax, take a break, eat, sleep, be kind to you and others ❤️
 
-> Repeat steps 3,4,5
+> Repeat steps 2,4,5
