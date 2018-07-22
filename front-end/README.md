@@ -36,18 +36,18 @@ _replace `[FRONTEND-APP-NAME]` below with your frontend-end app name_
 heroku git:remote -a [FRONTEND-APP-NAME]
 ```
 
-### 2. environment variables
+### 3. environment variables
 
-Set the API location to your [deployed backend](https://github.com/mihaelamiches/shipit/blob/master/back-end/README.md)
+Set the API location to your [back-end server](https://github.com/mihaelamiches/shipit/blob/master/back-end/README.md)
 
 _replace `[BACKEND-APP-NAME]` below with your back-end app name_
 > (eg: `heroku config:set ALLOW_ORIGIN=https://pacific-temple-api.herokuapp.com`)
 
 ```bash
-heroku config:set REACT_APP_API_LOCATION=https://[BACKEND-APP-NAME].herokuapp.com/
+https://[BACKEND-APP-NAME].herokuapp.com/
 ```
 
-### 3. ship it
+### 4. ship it
 
 ```bash
 git add .
@@ -55,10 +55,10 @@ git commit -m "make it fly"
 git push heroku master
 ```
 
-### 4. make it so
+### 5. make it so
 
 > add your magic. repeat.
 
-### 5. take a break eat, sleep, take care of yourself ❤️
+### 5. relax, take a break, eat, sleep, be kind to you and others ❤️
 
-> Repeat steps 3-5 
+> Repeat steps 3,4,5
