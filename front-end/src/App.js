@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './Wiki.css'
+import './css/Wiki.css'
 import Wiki from './Wiki.js';
 import Home from './Home.js';
 

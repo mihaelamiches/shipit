@@ -34,7 +34,7 @@ class Wiki extends Component {
         <ul>
         {json[1].map((item, index) => {
           return <li className="wiki-item" key={item}>
-            <a href={json[3][index]}>{item}</a> 
+            <a target="_blank" href={json[3][index]}>{item}</a> 
             <div>{json[2][index]}</div>
           </li>
         })}
