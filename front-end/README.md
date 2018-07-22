@@ -41,10 +41,10 @@ heroku git:remote -a [FRONTEND-APP-NAME]
 Set the API location to your [back-end server](https://github.com/mihaelamiches/shipit/blob/master/back-end/README.md)
 
 _replace `[BACKEND-APP-NAME]` below with your back-end app name_
-> (eg: `heroku config:set ALLOW_ORIGIN=https://pacific-temple-api.herokuapp.com`)
+> (eg: `heroku config:set REACT_APP_API_LOCATION=https://pacific-temple-api.herokuapp.com`)
 
 ```bash
-https://[BACKEND-APP-NAME].herokuapp.com/
+heroku config:set REACT_APP_API_LOCATION=https://[BACKEND-APP-NAME].herokuapp.com/
 ```
 
 ### 4. ship it
