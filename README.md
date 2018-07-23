@@ -1,8 +1,8 @@
-# Express + ReactJS starter kit
+# Express + ReactJS starter
 
 add some code and make it happen!
 
-## Heroku
+## Ship it
 
 - Sign up for a Heroku account [here](https://signup.heroku.com/) if you don't already have an account.
 - Create a [new app](https://dashboard.heroku.com/new-app) to serve the front-end - it be available at `https://[FRONTEND-APP-NAME].herokuapp.com/`
